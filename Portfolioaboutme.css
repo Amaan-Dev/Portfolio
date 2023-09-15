@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.84);
+    align-items: center;
+    height: 50px;
+    color: white;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    text-decoration: underline #00bbf9;
+    scale: 113%;
+    transition: ease-in 0.5s;
+
+}
+
+
+.menu {
+    position: fixed;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.281);
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    display: inline;
+    margin: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    color: #0c0909;  
+}
+
+.menu a:hover {
+    background-color: black;
+    padding: 15px;
+    transition: ease 0.5s;
+    color: wheat;
+    scale: 110%;
+}
+
+.cv h1 {
+    padding-top: 100px; 
+    text-align: center;
+}
+
+
+
+
+
